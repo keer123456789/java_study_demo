@@ -11,6 +11,7 @@
 
     <modules>
         <module>clone_demo</module>
+        <module>leveldb_demo</module>
     </modules>
 
 
