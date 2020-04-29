@@ -7,7 +7,7 @@ package lightClone;
  * @CreateTime: 2020-04-01 14:58
  * @Description: 实现Cloneable接口
  */
-public class Address2 implements Cloneable{
+public class Address2 implements Cloneable {
     private String add;
 
     public String getAdd() {
@@ -27,6 +27,14 @@ public class Address2 implements Cloneable{
             e.printStackTrace();
         }
         return address;
+    }
+
+    public static void main(String[] args) {
+        String a = new String();
+        a="gdafafgd";
+        String c=a;
+        String b=a.intern();
+
     }
 
 }

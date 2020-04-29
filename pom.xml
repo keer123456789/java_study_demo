@@ -12,6 +12,8 @@
     <modules>
         <module>clone_demo</module>
         <module>leveldb_demo</module>
+        <module>leetCode</module>
+        <module>count_codefile_row</module>
     </modules>
 
 
